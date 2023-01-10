@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-8.html-table</title>
+    <style>
+        table, th, td {border: 1px solid blue; border-collapse: collapse;}
+    </style>
+</head>
+<body>
+    <!-- 테이블 열 합치기 -->
+    <table style="width:100%">
+      <tr>
+         <td>참치</td>
+         <td colspan="2">고래</td>
+      </tr>
+      <tr>
+        <td>상어</td>
+        <td>문어</td>
+        <td>꽁치</td>
+      </tr>
+      <tr>
+        <td>오징어</td>
+        <td>고등어</td>
+        <td>상어</td>
+
+      </tr>
+    </table>
+    <hr>
+    <!-- 테이블 행 합치기 -->
+     <table style="width:100%">
+       <tr>
+         <td rowspan="2">상어</td>
+         <td>문어</td>
+         <td>연어</td>
+       </tr>
+       <tr>
+          <td>돌고래</td>
+          <td>광어</td>
+       </tr>
+    </table>
+    <hr>
+    <!-- 테이블의 열과 행 합치기 -->
+    <table style="width:100%">
+      <tr>
+        <td colspan="6">1</td>
+      </tr>
+      <tr>
+        <td colspan="6">2</td>
+      </tr>
+      <tr>
+        <td rowspan="3">3</td>
+        <td rowspan="3">4</td>
+        <td rowspan="3">5</td>
+         <td>6</td>
+         <td>7</td>
+      </tr>
+      <tr>
+        <td colspan="3">8</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td colspan="4">10</td>
+      </tr>
+    </table>
+    <!-- 테이블의 캡션(caption) 설정 -->
+    <table style="width:100%">
+      <caption>해양 생물</caption>
+      <tr>
+        <td>참치</td>
+        <td>고래</td>
+        <td>상어</td>
+      </tr>
+    </table>
+</body>
+</html>
