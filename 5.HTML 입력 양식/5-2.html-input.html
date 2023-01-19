@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5-2.html-input</title>
+</head>
+<body>
+    <form>
+        이름: <br><input type="text" name="student_name"> <br>
+        학번: <br><input type="text" name="student_id"> <br>
+        학과: <br><input type="text" name="department" value="물리학과"> <br>
+    </form>
+    <hr>
+
+    <!-- readonly 속성 = 초기값이 서버에 전송O -->
+    <form>
+        이름: <br><input type="text" name="student_name"> <br>
+        학번: <br><input type="text" name="student_id"> <br>
+        학과: <br><input type="text" name="department" value="물리학과" readonly> <br>
+    </form>
+
+    <hr>
+
+    <!-- disabled 속성 = 초기값이 서버에 전송X -->
+    <form>
+        이름: <br><input type="text" name="student_name"> <br>
+        학번: <br><input type="text" name="student_id"> <br>
+        학과: <br><input type="text" name="department" value="물리학과" disabled> <br>
+    </form>
+    <hr>
+
+    <!-- maxlength 속성 - 입력할 수 있는 최대 길이 -->
+    <form>
+        이름: <br><input type="text" name="student_name" value="홍길동" maxlength="4"> <br>
+        학번: <br><input type="text" name="student_id"> <br>
+    </form>
+
+    <!-- size 속성 - 보여줄 수 있는 문자의 최대 개수 -->
+    <form>
+        이름: <br><input type="text" name="student_name" value="홍길동" size="4"> <br>
+        학번: <br><input type="text" name="student_id"> <br>
+    </form>
+</body>
+</html>
