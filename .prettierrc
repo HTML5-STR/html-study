@@ -1,11 +1,9 @@
 {
-    "singleQuote": true,
-  "semi": true,
-  "useTabs": false,
-  "tabWidth": 2,
-  "trailingComma": "all",
-  "printWidth": 120,
-  "parser": "babel",
-  "bracketSpacing": true,
-  "arrowParens": "avoid"
+  "editor.formatOnSave": true,
+  "prettier.semi": false,
+  "prettier.javascriptEnable" : ["javascript", "javascriptreact"],
+  "prettier.printWidth" : 2,
+  "prettier.useTabs": false,
+  "prettier.tabWidth": 4,
+  "printWidth": 40
 }
