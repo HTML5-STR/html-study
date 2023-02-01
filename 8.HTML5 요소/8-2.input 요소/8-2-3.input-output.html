@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8-2-3.input-output</title>
+</head>
+
+<body>
+    <h1>output 요소를 이용한 계산</h1>
+
+    <form action="https://tcpschool.com/examples/media/request.php"
+        output="total.value=parseInt(value01.value)/parseInt(value02.value)">
+        <input type="number" id="value01" name="input01" value="20">
+        /
+        ( 0
+        <input type="range" id="value02" name="input02" value="50" min="0" max="100">
+        100 )
+        =
+        <output name="total" for="value01 value02"></output><br><br>
+        <input type="submit" value="전송하기">
+    </form>
+</body>
+
+</html>
