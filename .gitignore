@@ -3,3 +3,5 @@ yarn.lock
 .firebaserc
 firebase.json
 .firebase/
+/public
+/.vscode
