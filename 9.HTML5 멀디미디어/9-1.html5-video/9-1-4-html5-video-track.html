@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9-1-4-html5-video-track</title>
+</head>
+
+<body>
+    <video style="width:576; height:360" controls>
+        <source src="https://www.tcpschool.com/examples/media/sample_video_mp4.mp4" type="video/mp4">
+        <source src="https://www.tcpschool.com/examples/media/sample_video_ogg.ogg" type="video/ogg">
+        <track kind="subtitles" src="sample_subtitle_en.vtt" srclang="en" label="English">
+        <track kind="subtitles" src="sample_subtitle_fr.vtt" srclang="en" label="Francais">
+        이 문자은 사용자의 웹브라우저가 video 요소를 지원하지 않을 시 나옴
+    </video>
+</body>
+
+</html>
