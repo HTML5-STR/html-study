@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10-11.html5-canvas-image</title>
+</head>
+<style>
+    img {
+        width: 100%;
+        max-width: 100px;
+        height: 100%;
+    }
+
+    canvas {}
+</style>
+
+<body>
+    <h1>canvas 요소에 이미지 그리기</h1>
+    <img src="https://cdn.huffingtonpost.kr/news/photo/201905/83413_158442.jpeg" alt="" id="Sana">
+    <p>원본 이미지</p>
+    <canvas id="drawCanvas" width="900px" height="500px" style="border: 1px solid #993300"></canvas>
+    <p><button onclick="drawImage()">이미지 그리기</button></p>
+
+
+    <hr>
+    <h1>canvas 요소에 이미지 그리기</h1>
+
+    <img id="Monalisa" src="https://tcpschool.com/examples/images/img_monalisa.png" alt="모나리자" width="180" height="280">
+    <p>원본 이미지</p>
+    <canvas id="drawCanvas" width="200px" height="300px" style="border: 1px solid #993300">
+        이 문장은 사용자의 웹 브라우저가 canvas 요소를 지원하지 않을 때 나타납니다!
+    </canvas>
+    <p><button onclick="drawImage()">이미지 그리기</button></p>
+
+    <script src="./js/canvas-multimedia.js"></script>
+    <!-- <script>
+        function drawImage() {
+            var paper = document.getElementById("drawCanvas");
+            var context = paper.getContext("2d");
+            var srcImg = document.getElementById("Monalisa");
+            context.drawImage(srcImg, 10, 10);
+        }
+    </script> -->
+</body>
+
+</html>
