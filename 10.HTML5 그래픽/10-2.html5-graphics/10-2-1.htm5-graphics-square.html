@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10-2-1.html-5-graphics-square</title>
+</head>
+
+<body>
+    <!-- 사각형 그리기 -->
+    <svg width="200" height="150">
+        <rect width="200" height="150" stroke="orange" stroke-width="5" fill="yellow" />
+        이 문장은 사용자가 웹 브라우저가 svg 요소를 지원하지 않을 때 나타납니다.
+    </svg>
+    <hr>
+    <!-- 사각형 그리기 속성 -->
+    <svg width="200" height="150">
+        <rect width="200" height="150" style="stroke:orange; stroke-width:5; fill:yellow; opacity:1;" />
+        이 문장은 사용자가 웹 브라우저가 svg 요소를 지원하지 않을 때 나타납니다.
+    </svg>
+    <hr>
+
+    <!-- rect 요소 x,y,rx,ry 속성 추가 모서리가 둥근 사각형을 그릴 수 있다 -->
+    <svg width="250" height="200">
+        <rect width="200" height="150" x="20" y="20" rx="20" ry="20" stroke="purple" stroke-width="10" fill="blue" />
+    </svg>
+
+    <hr>
+    <!-- 선 그리기 -->
+    <svg width="250" height="200">
+        <line x1="50" y1="50" x2="200" y2="150" stroke="orange" stroke-width="5" />
+    </svg>
+
+    <hr>
+
+</body>
+
+</html>
